@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+/* Para que três números representem os lados de um triângulo é necessário que cada um deles seja menor que a soma dos outros dois.
+• Um triângulo é equilátero se tem os três lados iguais, isósceles se tem apenas dois lados iguais e escaleno se tem todos os lados distintos. */
+
 int main()
 {
     float a, b, c;
