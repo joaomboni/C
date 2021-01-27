@@ -14,14 +14,18 @@ int main()
     imc = peso / pow(altura, 2);
 
     printf("Seu I.M.C e: %.2f", imc);
-       
-    if (imc > 25) {
-        printf("\nVoce esta acima do peso, ideal!");
+
+    if (imc == 25.0) {
+        printf("\nDeve tomar cuidado com seu peso!");
     }
     else {
-        printf("\nParabens Voce esta no peso ideal!");
+        if (imc > 25.0){
+                printf("\nCuidado voce esta acima do peso ideal!");
     }
-    
+    else {
+        printf("\nParabens voce esta no peso ideal");
+    }
+    }
     getch();
 
     return 0;
