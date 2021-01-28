@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 //SEQUENCIA DE FIBONACCI.
-/*. A sÈrie de Fibonacci È 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ... Os dois
-primeiros termos s„o iguais a 1 e, a partir do terceiro, o termo È dado pela
+/*. A s√©rie de Fibonacci √© 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ... Os dois
+primeiros termos s√£o iguais a 1 e, a partir do terceiro, o termo √© dado pela
 soma dos dois termos anteriores.*/
 int main()
 {
